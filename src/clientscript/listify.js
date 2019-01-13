@@ -6,7 +6,7 @@ $("document").ready(function() {
   }
   var GetDelimiter = function(){
     var itemsText = $('#Items textarea').val();
-    var delimiter = '/\n';
+    var delimiter = '\n';
     if(itemsText.indexOf(',') != -1) delimiter = ',';
     if(itemsText.indexOf(';') != -1) delimiter = ';';
     return delimiter;
