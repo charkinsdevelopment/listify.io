@@ -1,3 +1,27 @@
 ## Welcome to Listify.io
 
 You can use this project to convert a column of data (ie Excel, Sql Results) into a comma separated list.
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<h1>Listify.io</h1>
+<p class="instructions">Paste your list that needs to be wrapped and comma delimited</p>
+<p class="notes"><i>Developed by Cory Harkins</i></p>
+<hr width="50%">
+<div id="Form">
+<div id="Items">
+  <h2>Items</h2>
+  <textarea rows="10" cols="50" placeholder="Put items to listify here."></textarea>
+  <div id="CmdListify" class="button">Listify!</div>
+</div>
+
+<div id="Results">
+  <h2>Results</h2>
+  <textarea rows="10" cols="50"></textarea>
+  <div id="CmdCopy" class="button">Copy To Clipboard</div>
+</div>
+
+<div id="Alert">
+  <p class="message"></p>
+</div>
+</div>
